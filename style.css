@@ -1,0 +1,68 @@
+body{
+    background-color: black;
+    font-family: 'Poppins', sans-serif;
+}
+.header{
+    margin: -17px;
+    padding: 25px;
+    color: rgba(254,100,1,255);
+}
+.cont1{
+    position: relative;
+    top: -9px;
+    margin-right: 30px;
+    margin-left: 10px;
+    height: 255px;
+    width: 99%;
+    background-color: rgba(26,27,27,255);
+    border-radius: 10px;
+    color: white;
+}
+.cont1:hover, .cont2:hover, .cont3:hover{
+    background-color: rgba(254,100,1,255);
+    transition: 0.7s;
+}
+.cont2{
+    margin-left: 10px;
+    height: 255px;
+    width: 99%;
+    background-color: rgba(26,27,27,255);
+    border-radius: 10px;
+    color: white;
+}
+.cont3{
+    position: relative;
+    top: 9px;
+    margin-left: 10px;
+    height: 255px;
+    width: 99%;
+    background-color: rgba(26,27,27,255);
+    border-radius: 10px;
+    color: white;
+}
+.con1txt, .con2txt, .con3txt{
+    margin: 5px;
+    padding: 25px;
+    font-weight: 300;
+}
+.txthd, .txthd2, .txthd3{
+    position: relative;
+    top: 17px;
+    font-weight: 600;
+    margin: 5px;
+    padding: 25px;
+}
+.datetxt, .date2txt{
+    position: relative;
+    top: -25px;
+    margin: 5px;
+    padding: 25px;
+    color: rgba(78,79,79,255);
+    font-family: Arial, Helvetica, sans-serif;
+}
+.date3txt{
+    margin: 5px;
+    padding: 25px;
+    color: rgba(78,79,79,255); 
+    font-family: Arial, Helvetica, sans-serif;
+}
